@@ -1,0 +1,129 @@
+body{
+    background: rgb(47,221,210);
+    background: radial-gradient(circle, rgba(47,221,210,1) 45%, rgba(27,192,212,1) 100%);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid rgb(47,221,210);
+    border-radius: 19px;
+    box-shadow: 5px 5px 30px black;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    padding-top: 10px;
+}
+.question{
+    display: flex;
+    gap: 10%;
+    height: 10%;
+    width: 60%;
+    margin-bottom: 10%;
+}
+.operand1{
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+}
+.operand2{
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+}
+.operator{
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+}
+.options{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    height:10%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+.option1{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 120%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+}
+.option1:hover{
+    cursor: pointer;
+}
+.result{
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 53%;
+    width: 30%;
+    background-color: black;
+    font-weight: 900;
+    color: white;
+    border-radius: 10px;
+}
+.play{
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 53%;
+    width: 30%;
+    background-color: black;
+    font-weight: 900;
+    color: white;
+    border-radius: 10px;
+}
+.result:hover{
+    cursor: pointer;
+}
+.play:hover{
+    cursor: pointer;
+}
+.result-play{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+}
+.operand1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 25px;
+   font-weight: bold;
+   color: red;
+}
+.operand2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+ }
+ .operator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+ }
